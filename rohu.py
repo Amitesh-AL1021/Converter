@@ -5,7 +5,7 @@ import speech_recognition as sr
 import os
 
 # Page configuration
-st.set_page_config(page_title="🎓 ROHU Language Translator", layout="wide", page_icon="🗣️")
+st.set_page_config(page_title="🎓 Recheck Language Translator", layout="wide", page_icon="🗣️")
 
 # Translator setup
 translator = Translator()
@@ -133,6 +133,6 @@ else:
 st.markdown("""
     <hr>
     <p style='text-align: center; font-size: 16px; color: gray;'>
-        🙏 Thank you for using the ROHU Language Translator. We hope it helps you connect better with the world.
+        🙏 Thank you for using the Recheck🔍 Language Translator. We hope it helps you connect better with the world.
     </p>
 """, unsafe_allow_html=True)
